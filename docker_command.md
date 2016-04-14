@@ -1,4 +1,6 @@
 ```
+# 查看docker信息
+docker info
 docker_sample_job=$(docker run -d ubuntu /bin/sh -c "while true; do echo Docker; sleep 1; done")
 docker logs $docker_sample_job
 docker help
